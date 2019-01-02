@@ -13,11 +13,14 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 #navBar {
     top: 0;
-    position: sticky;
+    position: fixed;
     background-image: linear-gradient(to right, #0080AD, #55AED9);
     width: 100%;
     height: 55px;
 }
 #navBar a {
     font-size: 40px;
+}
+#it {
+    top: 110px; 
 }
