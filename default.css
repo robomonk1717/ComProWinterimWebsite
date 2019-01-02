@@ -1,0 +1,23 @@
+body {
+    background-color: #2899C9;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #494B4A;
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    border-radius: 100%;
+    width: 50px;
+    margin: 3px;
+}
+#navBar {
+    top: 0;
+    position: sticky;
+    background-image: linear-gradient(to right, #0080AD, #55AED9);
+    width: 100%;
+    height: 55px;
+}
+#navBar a {
+    font-size: 40px;
+}
