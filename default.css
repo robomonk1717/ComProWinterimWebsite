@@ -2,7 +2,7 @@ body {
     background-color: #2899C9;
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, li {
     color: #494B4A;
     font-family: "Roboto", sans-serif;
 }
@@ -13,14 +13,23 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 #navBar {
     top: 0;
-    position: fixed;
+    position: sticky;
     background-image: linear-gradient(to right, #0080AD, #55AED9);
     width: 100%;
     height: 55px;
+    display: grid;
+    grid: 50px / 50px 175px auto;
+    grid-gap: 25px;
 }
 #navBar a {
     font-size: 40px;
+    text-decoration: none;
+    top: 0;
 }
-#it {
-    top: 110px; 
+img {
+    width: 100%;
+}
+h1 {
+    text-decoration: underline;
+    text-align: center;
 }
