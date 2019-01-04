@@ -5,6 +5,7 @@ body {
 h1, h2, h3, h4, h5, h6, p, a, li {
     color: #494B4A;
     font-family: "Roboto", sans-serif;
+    font-size: 17px;
 }
 #logo {
     border-radius: 100%;
@@ -18,13 +19,22 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     width: 100%;
     height: 55px;
     display: grid;
-    grid: 50px / 50px 175px auto;
+    grid: 50px / 50px 225px 225px;
     grid-gap: 25px;
 }
 #navBar a {
     font-size: 40px;
     text-decoration: none;
+    height: 55px;
+    width: 225px;
+    text-align: center;
+}
+#navBar * {
+    display: inline;
     top: 0;
+}
+#navBar a:hover {
+    background-color: #2899C9;
 }
 img {
     width: 100%;
@@ -32,4 +42,23 @@ img {
 h1 {
     text-decoration: underline;
     text-align: center;
+    font-size: 50px;
+}
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+.button {
+    display: block;
+    background-color: #0080AD;
+    border-radius: 50%;
+    margin: auto;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #55AED9;
 }
