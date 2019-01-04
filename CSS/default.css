@@ -22,19 +22,32 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     grid: 50px / 50px 225px 225px;
     grid-gap: 25px;
 }
-#navBar a {
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+#navBar div a {
     font-size: 40px;
     text-decoration: none;
-    height: 55px;
+    height: 70px;
     width: 225px;
     text-align: center;
+    opacity: 100%;
 }
 #navBar * {
     display: inline;
     top: 0;
 }
-#navBar a:hover {
-    background-color: #2899C9;
+#navBar div {
+    background-image: linear-gradient(to left, #0080AD, #55AED9);
+}
+#navBar div:hover {
+    animation: fadeIn 2s ease-in-out 0s forwards;
 }
 img {
     width: 100%;
