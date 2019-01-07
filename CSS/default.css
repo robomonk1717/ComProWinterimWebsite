@@ -10,18 +10,25 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 #logo {
     border-radius: 100%;
     width: 50px;
-    margin: 3px;
+    margin: auto;
 }
 #navBar {
     top: 0;
     position: sticky;
-    background-image: linear-gradient(to right, #0080AD, #55AED9);
+    background-color: #0080AD;
     width: 100%;
     height: 55px;
     display: grid;
-    grid: 50px / 50px 225px 225px;
-    grid-gap: 25px;
+    grid: 50px / 75px 225px 225px;
+    grid-column-gap: 0px;
+    transition: background-color 1s ease-in-out 0s;
+    -o-transition: background-color 1s ease-in-out 0s;
+    -webkit-transition: background-color 1s ease-in-out 0s;
+    -moz-transition: background-color 1s ease-in-out 0s;
 }
+#navBar:hover {
+    background-color: #494B4A;
+} 
 #navBar div a {
     display: block;
     font-size: 40px;
@@ -30,14 +37,30 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     width: 225px;
     text-align: center;
     opacity: 100%;
+    color: #494B4A;
+    transition: color 1s ease-in-out 0s;
+    -o-transition: color 1s ease-in-out 0s;
+    -webkit-transition: color 1s ease-in-out 0s;
+    -moz-transition: color 1s ease-in-out 0s;
+}
+#navBar:hover div a {
+    color: #55AED9;
 }
 #navBar * {
     display: inline;
     top: 0;
 }
 #navBar div {
+    background-color: rgba(0, 0, 0, 0);
     height: 55px;
-    width: 250px;
+    width: 225px;
+    transition: background-color 1s ease-in-out 0s;
+    -o-transition: background-color 1s ease-in-out 0s;
+    -webkit-transition: background-color 1s ease-in-out 0s;
+    -moz-transition: background-color 1s ease-in-out 0s;
+}
+#navBar div:hover {
+    background-color: rgba(0, 0, 0, 100%)
 }
 img {
     width: 100%;
@@ -61,6 +84,10 @@ h3 {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 1s ease-in-out 0s;
+    -o-transition: background-color 1s ease-in-out 0s;
+    -webkit-transition: background-color 1s ease-in-out 0s;
+    -moz-transition: background-color 1s ease-in-out 0s;
 }
 .button:hover {
     background-color: #55AED9;
