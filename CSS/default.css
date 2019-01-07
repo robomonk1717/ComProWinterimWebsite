@@ -22,16 +22,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     grid: 50px / 50px 225px 225px;
     grid-gap: 25px;
 }
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
 #navBar div a {
+    display: block;
     font-size: 40px;
     text-decoration: none;
     height: 70px;
@@ -44,10 +36,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     top: 0;
 }
 #navBar div {
-    background-image: linear-gradient(to left, #0080AD, #55AED9);
-}
-#navBar div:hover {
-    animation: fadeIn 2s ease-in-out 0s forwards;
+    height: 55px;
+    width: 250px;
 }
 img {
     width: 100%;
