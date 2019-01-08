@@ -5,43 +5,44 @@ body {
 h1, h2, h3, h4, h5, h6, p, a, li {
     color: #494B4A;
     font-family: "Roboto", sans-serif;
-    font-size: 17px;
 }
 #logo {
     border-radius: 100%;
-    width: 50px;
+    width: 35px;
     margin: auto;
+    margin-left: 10px;
+    padding: 2px 0;
 }
 #navBar {
     top: 0;
     position: sticky;
     background-color: #0080AD;
     width: 100%;
-    height: 55px;
+    height: 40px;
     display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 75px 200px 200px;
+    grid: 40px / 55px 125px 125px;
     grid-column-gap: 0px;
     transition: background-color 500ms ease-in-out 0s;
     -o-transition: background-color 500ms ease-in-out 0s;
     -webkit-transition: background-color 500ms ease-in-out 0s;
     -moz-transition: background-color 500ms ease-in-out 0s;
+    z-index: 10;
 }
 #navBar:hover {
     background-color: #494B4A;
-    grid-template-columns: 75px 200px 225px;
 } 
 #navBar div a {
     margin-top: 3px;
     display: block;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    height: 70px;
-    width: 200px;
+    height: 40px;
+    width: 125px;
     text-align: center;
+    padding: 3px 0;
     opacity: 100%;
     color: #494B4A;
     transition: color 500ms ease-in-out 0s;
@@ -59,15 +60,12 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 #navBar div {
     background-color: rgba(0, 0, 0, 0);
-    height: 55px;
-    width: 200px;
+    height: 40px;
+    width: 125px;
     transition: background-color 500ms ease-in-out 0s;
     -o-transition: background-color 500ms ease-in-out 0s;
     -webkit-transition: background-color 500ms ease-in-out 0s;
     -moz-transition: background-color 500ms ease-in-out 0s;
-}
-#navBar:hover div {
-    width: 225px;
 }
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
@@ -78,21 +76,23 @@ img {
 h1 {
     text-decoration: underline;
     text-align: center;
-    font-size: 50px;
 }
 h3 {
     text-decoration: underline;
-    font-size: 30px;
 }
 .button {
-    display: block;
     background-color: #0080AD;
     border-radius: 50%;
-    margin: auto;
-    height: 40px;
-    font-size: 30px;
+    width: 12.5%;
+    height: 25px;
+    font-size: 20px;
+    padding: 0 4px 0 4px;
+    margin: 0 5px 0 5px;
     text-align: center;
     text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     transition: background-color 500ms ease-in-out 0s;
     -o-transition: background-color 500ms ease-in-out 0s;
     -webkit-transition: background-color 500ms ease-in-out 0s;
@@ -100,4 +100,14 @@ h3 {
 }
 .button:hover {
     background-color: #55AED9;
+}
+.flushLeft {
+    margin-right: auto;
+}
+.flushRight {
+    margin-left: auto;
+}
+#buttons {
+    display: grid;
+    grid: 25px / auto;
 }
