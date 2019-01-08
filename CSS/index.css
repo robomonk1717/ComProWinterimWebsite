@@ -2,3 +2,9 @@
     width: 50%;
     margin: 0 25% 0 25%;
 }
+#top {
+    font-size: 75px;
+    text-decoration: none;
+    background-color: #2899C9;
+    margin: 0;
+}
