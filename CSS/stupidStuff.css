@@ -4,3 +4,17 @@
     grid-template: auto auto auto auto / 47.5% 47.5%;
     grid-column-gap: 5%;
 }
+.images {
+    position: relative;
+}
+.images p {
+    position: absolute;
+    display: none;
+    color: #55AED9;
+    background-color: rgba(73, 75, 74, 75%);
+    margin-top: 0px;
+    font-size: 40px;
+}
+.images:hover p {
+    display: inline;
+}
