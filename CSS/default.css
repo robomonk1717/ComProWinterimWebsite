@@ -19,12 +19,13 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     width: 100%;
     height: 55px;
     display: grid;
-    grid: 50px / 75px 200px 200px;
+    grid-template-rows: 50px;
+    grid-template-columns: 75px 200px 200px;
     grid-column-gap: 0px;
-    transition: background-color 1s ease-in-out 0s;
-    -o-transition: background-color 1s ease-in-out 0s;
-    -webkit-transition: background-color 1s ease-in-out 0s;
-    -moz-transition: background-color 1s ease-in-out 0s;
+    transition: background-color 500ms ease-in-out 0s;
+    -o-transition: background-color 500ms ease-in-out 0s;
+    -webkit-transition: background-color 500ms ease-in-out 0s;
+    -moz-transition: background-color 500ms ease-in-out 0s;
 }
 #navBar:hover {
     background-color: #494B4A;
@@ -42,10 +43,10 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     text-align: center;
     opacity: 100%;
     color: #494B4A;
-    transition: color 1s ease-in-out 0s;
-    -o-transition: color 1s ease-in-out 0s;
-    -webkit-transition: color 1s ease-in-out 0s;
-    -moz-transition: color 1s ease-in-out 0s;
+    transition: color 500ms ease-in-out 0s;
+    -o-transition: color 500ms ease-in-out 0s;
+    -webkit-transition: color 500ms ease-in-out 0s;
+    -moz-transition: color 500ms ease-in-out 0s;
 }
 #navBar:hover div a {
     color: #55AED9;
@@ -58,13 +59,16 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     background-color: rgba(0, 0, 0, 0);
     height: 55px;
     width: 200px;
-    transition: background-color 1s ease-in-out 0s;
-    -o-transition: background-color 1s ease-in-out 0s;
-    -webkit-transition: background-color 1s ease-in-out 0s;
-    -moz-transition: background-color 1s ease-in-out 0s;
+    transition: background-color 500ms ease-in-out 0s;
+    -o-transition: background-color 500ms ease-in-out 0s;
+    -webkit-transition: background-color 500ms ease-in-out 0s;
+    -moz-transition: background-color 500ms ease-in-out 0s;
 }
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
+}
+#navBar div:hover a {
+    overflow: visible;
 }
 img {
     width: 100%;
@@ -87,10 +91,10 @@ h3 {
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 1s ease-in-out 0s;
-    -o-transition: background-color 1s ease-in-out 0s;
-    -webkit-transition: background-color 1s ease-in-out 0s;
-    -moz-transition: background-color 1s ease-in-out 0s;
+    transition: background-color 500ms ease-in-out 0s;
+    -o-transition: background-color 500ms ease-in-out 0s;
+    -webkit-transition: background-color 500ms ease-in-out 0s;
+    -moz-transition: background-color 500ms ease-in-out 0s;
 }
 .button:hover {
     background-color: #55AED9;
