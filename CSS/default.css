@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 #navBar:hover {
     background-color: #494B4A;
+    grid-template-columns: 75px 200px 225px;
 } 
 #navBar div a {
     margin-top: 3px;
@@ -49,6 +50,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     -moz-transition: color 500ms ease-in-out 0s;
 }
 #navBar:hover div a {
+    overflow: visible;
     color: #55AED9;
 }
 #navBar * {
@@ -64,11 +66,11 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     -webkit-transition: background-color 500ms ease-in-out 0s;
     -moz-transition: background-color 500ms ease-in-out 0s;
 }
+#navBar:hover div {
+    width: 225px;
+}
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
-}
-#navBar div:hover a {
-    overflow: visible;
 }
 img {
     width: 100%;
