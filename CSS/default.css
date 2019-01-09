@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     color: #494B4A;
     font-family: "Roboto", sans-serif;
 }
+img {
+    width: 100%;
+}
 #logo {
     border-radius: 100%;
     width: 35px;
@@ -69,9 +72,6 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
-}
-img {
-    width: 100%;
 }
 h1 {
     text-decoration: underline;
