@@ -1,7 +1,7 @@
 #images {
     margin: auto;
     display: grid;
-    grid-template: auto auto auto auto / 47.5% 47.5%;
+    grid-template: auto / 47.5% 47.5%;
     grid-column-gap: 5%;
 }
 .images {
