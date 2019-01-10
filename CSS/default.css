@@ -74,6 +74,31 @@ img {
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
 }
+.dropdown div {
+    background-color: #494B4A;
+    height: 0px;
+    transition: height 250ms ease-in-out 0s;
+    -o-transition: height 250ms ease-in-out 0s;
+    -webkit-transition: height 250ms ease-in-out 0s;
+    -moz-transition: height 250ms ease-in-out 0s;
+}
+.dropdown div a {
+    font-size: 0px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: font-size 250ms ease-in-out 0s;
+    -o-transition: font-size 250ms ease-in-out 0s;
+    -webkit-transition: font-size 250ms ease-in-out 0s;
+    -moz-transition: font-size 250ms ease-in-out 0s;
+    transition: height 250ms ease-in-out 0s;
+    -o-transition: height 250ms ease-in-out 0s;
+    -webkit-transition: height 250ms ease-in-out 0s;
+    -moz-transition: height 250ms ease-in-out 0s;
+    transition: background-color 500ms ease-in-out 0s;
+    -o-transition: background-color 500ms ease-in-out 0s;
+    -webkit-transition: background-color 500ms ease-in-out 0s;
+    -moz-transition: background-color 500ms ease-in-out 0s;
+}
 h1 {
     text-decoration: underline;
     text-align: center;
