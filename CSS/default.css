@@ -26,10 +26,10 @@ img {
     display: grid;
     grid-template: 40px / 55px 125px 125px 125px;
     grid-column-gap: 0px;
-    transition: background-color 250ms ease-in-out 0s;
-    -o-transition: background-color 250ms ease-in-out 0s;
-    -webkit-transition: background-color 250ms ease-in-out 0s;
-    -moz-transition: background-color 250ms ease-in-out 0s;
+    transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
     z-index: 10;
 }
 #navBar:hover {
@@ -49,10 +49,10 @@ img {
     padding: 3px 0 0 0;
     opacity: 100%;
     color: #494B4A;
-    transition: color 250ms ease-in-out 0s;
-    -o-transition: color 250ms ease-in-out 0s;
-    -webkit-transition: color 250ms ease-in-out 0s;
-    -moz-transition: color 250ms ease-in-out 0s;
+    transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
 }
 #navBar:hover div a {
     overflow: visible;
@@ -67,19 +67,13 @@ img {
     background-color: rgba(0, 0, 0, 0);
     height: 40px;
     width: 125px;
-    transition: background-color 250ms ease-in-out 0s;
-    -o-transition: background-color 250ms ease-in-out 0s;
-    -webkit-transition: background-color 250ms ease-in-out 0s;
-    -moz-transition: background-color 250ms ease-in-out 0s;
+    transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
 }
 #navBar div:hover {
     background-color: rgba(0, 0, 0, 100%);
-}
-#navBar .dropdown:hover {
-    background-color: rgba(0, 0, 0, 0)
-}
-#navBar:hover #dropdown1 div {
-    visibility: visible;
 }
 h1 {
     text-decoration: underline;
@@ -102,10 +96,10 @@ h3 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    transition: background-color 250ms ease-in-out 0s;
-    -o-transition: background-color 250ms ease-in-out 0s;
-    -webkit-transition: background-color 250ms ease-in-out 0s;
-    -moz-transition: background-color 250ms ease-in-out 0s;
+    transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
 }
 .button:hover {
     background-color: #55AED9;
